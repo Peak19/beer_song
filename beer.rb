@@ -9,6 +9,7 @@ class Beer
 			puts "#{bottles} bottle of beer on the wall. #{bottles} bottle of beer.  You take one down and pass it around no bottles of beer on the wall."
 			puts "No bottles of beer on the wall. No more bottles of beer.  Go to the store and buy some more, #{origin} bottles of beer on the wall."
 			bottles = -1
+			return
 		end
 	end
 end
